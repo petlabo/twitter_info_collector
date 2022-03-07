@@ -23,7 +23,7 @@ AWSサービスLambdaを用いて、一日数回ツイッターのユーザー�
 本プロダクトを再現するために必要となるAWS上の手順、およびLambda関数のソースコードを示す。
 
 ### Lambda関数ソースコード
-<a href="https://github.com/petlabo/twitter_info_collector">twitter_user_collect_in_lambda.py</a>\
+<a href="https://github.com/petlabo/twitter_info_collector/blob/main/twitter_user_collect_in_lambda.py">twitter_user_collect_in_lambda.py</a>\
 ただし、このソースコードを用いるためには、pandas, requests-oauthライブラリが必要である。\
 ・サイドバー->レイヤー->レイヤーを作成 ローカルPC上でインストールしたライブラリをzipコマンドで圧縮したうえでアップロード、作成したレイヤーのARNをコピー\
 ・Lambda画面 レイヤーを追加->ARNを入力
