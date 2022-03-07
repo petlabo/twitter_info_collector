@@ -176,7 +176,8 @@ def lambda_handler(event, context):
     
     #特定のツイートにリツイートしたユーザー情報を収集する関数
     #tweetIdにリツイートした最新10個の情報を収集
-    retweet_user_collect(<tweetId>, 10)
+    tweet_id = 'xxxxxxxxxxxxxxxxx'
+    retweet_user_collect(tweet_id, 10)
     
     return {
         'statusCode': 200,
